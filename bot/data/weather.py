@@ -9,8 +9,8 @@ def get_weather_day():
     cloud = response['cloud']
     result = f"""
 So'nggi yangilanish bo'yicha ob-havo ma'lumotlari:
-Vaqti: {last_updated} 🕝
-Harorat: {temp_c}°C 🌡
+Vaqtiiiiiiiii: {last_updated} 🕝
+Harorattttttttttt: {temp_c}°C 🌡
 Shamol tezligi: {wind_kph} 🌬
 Bulutlilik: {cloud} % ☁️
 Namlik: {humidity} 💧
@@ -30,11 +30,11 @@ def get_weather_week():
 
         result_day = f"""
 Sana: {date}
-Max Harorat: {maxtemp_c}°C 🌡
-Min Harorat: {mintemp_c}°C 🌡
-O'rtacha Harorat: {avgtemp_c}°C 🌡
-Shamol tezligi: {maxwind_kph} 🌬
-Namlik: {avghumidity} 💧
+Max Haroraiiiit: {maxtemp_c}°C 🌡
+Min Haroratiiiiiii: {mintemp_c}°C 🌡
+O'rtacha Haroratiiiiiii: {avgtemp_c}°C 🌡
+Shamol tezligiiiiiiiii: {maxwind_kph} 🌬
+Namlikkkkkkkk: {avghumidity} 💧
 """
         result += result_day
     return result
@@ -57,7 +57,7 @@ def get_weather_hourly():
         humidity = hour['humidity']
         cloud = hour['cloud']
         hourly_report += f"""
-Vaqti: {time} 🕝
+Vaqtiiiiiiii: {time} 🕝
 Harorat: {temp_c}°C 🌡
 Shamol tezligi: {wind_kph} kph 🌬
 Bulutlilik: {cloud} % ☁️
