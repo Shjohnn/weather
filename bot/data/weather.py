@@ -61,7 +61,7 @@ Vaqti: {time} 🕝
 Harorat: {temp_c}°C 🌡
 Shamol tezligi: {wind_kph} kph 🌬
 Bulutlilik: {cloud} % ☁️
-Namlik: {humidity} % 💧
+Namlikkkkkkkkkkkk: {humidity} % 💧
 """
 
     return hourly_report.strip()
